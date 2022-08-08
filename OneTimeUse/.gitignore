@@ -70,3 +70,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+./Tea Time at the End of Time_BurstDebugInformation_DoNotShip/
+./Tea Time at the End of Time_Data/

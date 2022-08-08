@@ -30,6 +30,19 @@ public class scissor_trigger : MonoBehaviour
             rb.constraints = RigidbodyConstraints.None;
             rb.mass = 5;
             flag = true;
+
+
+            obj = GameObject.Find("/hammer");
+
+            anim = obj.GetComponent<Animation>();
+            anim.Play("hammer");
+
+
+            obj = GameObject.Find("/Spring");
+
+            anim = obj.GetComponent<Animation>();
+            anim.Play("spring");
+
         }
     }
 
